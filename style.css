@@ -5,6 +5,7 @@
     --secondary-color: #333;
     --background-light: #f4f4f4;
     --text-dark: #333;
+    --text-light: #fff;
     --nav-dark: #2c3e50; 
 }
 
@@ -25,6 +26,8 @@ body {
 
 .main-header {
     background-color: var(--primary-color);
+     color: var(--text-light);
+
     padding: 50px 0 20px;
     text-align: center;
 }
